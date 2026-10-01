@@ -1,1 +1,138 @@
-# Repo-2
+Ampkart E-Commerce Website – Automation Testing
+
+ 📌 Project Overview
+
+This project focuses on the **functional and UI automation testing of the Ampkart e-commerce website** using Selenium WebDriver with Java and TestNG.
+
+The automation framework covers key user journeys such as website navigation, product discovery, shopping cart operations, and interactive product sections.
+
+**Website:** https://www.ampkart.com/
+
+
+🛠️ Technology Stack
+
+* **Programming Language:** Java
+* **Automation Tool:** Selenium WebDriver
+* **Testing Framework:** TestNG
+* **Build Tool:** Maven
+* **Design Pattern:** Page Object Model (POM)
+* **Browser:** Microsoft Edge
+* **Element Locators:** XPath, CSS Selectors
+* **Version Control:** Git & GitHub
+
+
+
+ 🧪 Test Coverage
+
+The automation suite covers the following scenarios:
+
+ Navigation Testing
+
+* Verify Home navigation
+* Verify Shop page navigation
+* Verify Blog page navigation
+* Verify Customer Quote Maker navigation
+* Verify Login page navigation
+* Verify Cart navigation
+
+Product Discovery
+
+* Verify **Start Shopping**
+* Verify **Explore Categories**
+* Verify Shop by Category options
+* Verify Brands section
+* Verify product navigation
+
+Dynamic Components
+
+* Verify **Best Sellers** carousel navigation
+* Verify **New Arrivals** carousel navigation
+
+Shopping Cart
+
+* Add a product to the cart
+* Open the shopping cart
+* Remove a product from the cart
+* Add the product again
+* Increase product quantity
+* Verify the updated cart state
+
+
+🏗️ Framework Structure
+
+The project follows the **Page Object Model (POM)** approach to separate page-level elements and actions from test execution.
+
+```text
+Ampkart-Automation/
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── page/
+│   │           └── pageclass.java
+│   │
+│   └── test/
+│       └── java/
+│           └── testng/
+│               └── testclass.java
+│
+├── pom.xml
+└── README.md
+```
+
+
+⚙️ Automation Approach
+
+The framework uses:
+
+* Reusable page methods for web interactions
+* TestNG for test organization and execution
+* Assertions to validate expected page content and application states
+* Explicit element identification using XPath and CSS Selectors
+* Browser automation through Selenium WebDriver
+* Maven for dependency management and project execution
+
+ ▶️ How to Run
+
+1. Clone the repository
+
+```bash
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+```
+
+2. Open the project
+
+Import the project into **Eclipse** or another Java IDE as a Maven project.
+
+3. Install dependencies
+
+```bash
+mvn clean install
+```
+
+ 4. Run the TestNG test suite
+
+Execute the TestNG test class from the IDE or configure Maven/TestNG for command-line execution.
+
+
+🎯 Project Objective
+
+The objective of this project is to demonstrate practical experience in **web application automation testing**, including:
+
+* Test case design
+* Functional testing
+* UI automation
+* Page Object Model
+* Selenium WebDriver
+* TestNG assertions
+* E-commerce workflow validation
+* Reusable automation methods
+* Test execution and maintenance
+
+ 👨‍💻 Author
+
+Yash Kapoor
+
+Software Test Engineer | Manual & Automation Testing
+
+* LinkedIn: https://www.linkedin.com/in/yash-kapoor-907346235/?isSelfProfile=true
